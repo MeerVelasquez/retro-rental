@@ -1,9 +1,11 @@
 
 import React from 'react';
-import Navbar from './navbar.jsx'; // Ajusta la ruta según sea necesario
-import './css/loginpage.css'; // Importa tu archivo de estilos para la página de inicio de sesión
+import Navbar from './navbar.jsx'; 
+import './css/loginpage.css'; 
+import Footer from './footer.jsx';
 
 const LoginPage = () => {
+  
   return (
     <div>
       <Navbar />
@@ -11,21 +13,23 @@ const LoginPage = () => {
       <div className="login-container">
         <div className="login-content">
           <img
-            src="https://i.imgur.com/DG0HNSf.png" // Reemplaza con la ruta de tu imagen
+            src="https://i.imgur.com/DG0HNSf.png" 
             alt="Login"
             className="login-image"
           />
           <div className="login-form">
             <h2>Welcome Admin</h2>
             <form>
-              <input type="text" id="username" name="username" />
-              <input type="password" id="password" name="password" />
+              <input type="text" id="username" name="username" placeholder='username' />
+              <input type="password" id="password" name="password" placeholder='password' />
 
-              <button type="submit">Login</button>
+              <button type="submit">Sign In</button>
             </form>
+            <h4>Forgot Password?</h4>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
