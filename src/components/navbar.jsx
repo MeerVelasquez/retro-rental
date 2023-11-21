@@ -7,7 +7,7 @@ const MyNavbar = () => {
     <nav className="navbar">
       <div className="navbar-left">
         <img
-          src= "./img/logo.png " // Reemplaza con la ruta de tu logo
+          src= "https://i.imgur.com/kY7Mv1n.png" 
           alt="Logo"
           className="logo"
         />

@@ -1,4 +1,11 @@
-/* Styles for the navigation bar */
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../font/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -27,6 +34,7 @@
   color: white;
   text-decoration: none;
   margin-right: 15px;
+  font-family: 'Montserrat-Bold';
 }
 
 .navbar-left .about{
@@ -49,4 +57,5 @@
   border-color: #F8412F;
   cursor: pointer;
   margin-right: 40px;
+  font-family: 'Montserrat-Bold';
 }

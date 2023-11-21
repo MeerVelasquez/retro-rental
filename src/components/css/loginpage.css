@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../font/Montserrat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 527px;
+    width: 934px;
+    background-color: #424769;
+    
+    border-radius: 20px;
+    border: 1px solid #7473B7;
+  }
+  
+  .login-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+    width: 100%; 
+  }
+  
+  .login-image {
+    max-width: 400px;
+    margin-right: 20px;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  .login-form h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+  }
+
+  .login-form input,
+.login-form button {
+  width: 70%; 
+  
+}

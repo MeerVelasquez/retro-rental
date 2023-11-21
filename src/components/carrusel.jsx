@@ -10,7 +10,7 @@ const CarouselComponent = () => {
         <Carousel.Item className="custom-carousel-item">
           <img
             className="d-block w-100"
-            src="https://via.placeholder.com/800x400"
+            src="https://i.imgur.com/NOgcQMs.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -18,14 +18,7 @@ const CarouselComponent = () => {
             <p>Best deals for Black Friday!</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="custom-carousel-item">
-          <img
-            className="d-block w-100"
-            src="https://via.placeholder.com/800x400"
-            alt="First slide"
-          />
-         
-        </Carousel.Item>
+        
 
         
 

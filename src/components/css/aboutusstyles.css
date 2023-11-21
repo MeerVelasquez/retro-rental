@@ -1,4 +1,15 @@
-/* Estilos adicionales para el componente AboutUsComponent */
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../font/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../font/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .about-us-container {
     padding: 20px; /* Agrega un espacio alrededor del contenido */
     margin-top: 20px; /* Ajusta el margen superior según sea necesario */
@@ -8,7 +19,9 @@
   /* Estilos para el título de About Us */
   .about-us-title {
     color: #fff;
+    font-size: 40px;
     text-align: center;
+    font-family: 'Montserrat-Bold';
   }
   
   /* Estilos para la fila de imágenes */
@@ -27,7 +40,8 @@
   
   /* Estilos para las descripciones debajo de las imágenes */
   .image-item p {
-    color: #333; /* Cambia el color del texto según sea necesario */
+    color: #f5f1f1; /* Cambia el color del texto según sea necesario */
     margin-top: 10px;
+    font-family: 'Montserrat-SemiBold';
   }
   
