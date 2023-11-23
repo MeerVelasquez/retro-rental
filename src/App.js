@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Homepage from './components/homepage';
-import LoginPage from './components/login';
+
+import Homeadmin from './components/hpadmin';
 
 const App = () => {
   return (
     <div>
-      <LoginPage />
+      <Homeadmin />
       
       
     </div>
