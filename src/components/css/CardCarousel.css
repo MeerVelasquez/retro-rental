@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../font/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../font/Montserrat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-extralight';
+    src: url('../font/Montserrat-ExtraLight.ttf') format('truetype');
+  }
+  
+  .card-carousel-container {
+    position: relative;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px !important;
+    background-color: #444462 !important;
+    margin-right: 25px !important;
+  }
+  
+  .container-imagen {
+    width: 223px;
+    height: 280px;
+    background-color: #2e2e3a;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .container-imagen img {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .banda {
+    margin-top: 10px;
+    background-color: #444461;
+    width: 100px;
+    height: 9px;
+    border-radius: 8px;
+  }
+  
+  .banda p {
+    font-size: 6px;
+    color: #fff;
+    font-family: 'Montserrat-SemiBold'; 
+    font-weight: lighter;
+  }
+
+  .slick-prev{
+    left: -40px; /* Ajusta la posición a la izquierda */
+  }
+
+  .slick-next {
+    right: -40px; /* Ajusta la posición a la derecha */
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: white;
+    background-color: #4C5078;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    background-color: #4C5078;
+  }
+  
+  .slick-prev:focus,
+  .slick-next:focus {
+    outline: none;
+  }
+
+  h3{
+    font-family: 'Montserrat-Bold';
+    
+    color: #fff !important;
+    margin-top: 10px;
+  }
+
+    p{
+        font-family: 'Montserrat-extralight';
+        color: #fff !important;
+        margin-top: 10px;
+    }
+
+.description {
+   margin-top: 2px !important;
+}
+
+
+  

@@ -1,0 +1,35 @@
+
+
+.table-container {
+    margin: 20px;
+  }
+  
+  .table-header {
+    background-color: #007bff !important; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+  }
+  
+  .table-row {
+    background-color: #f8f9fa; /* Color de fondo de las filas */
+  }
+  
+  .table-cell {
+    padding: 10px;
+  }
+  
+  /* Estilos para las diferentes clases de status */
+  .status-inactivo {
+    color: #007bff; /* Color del texto */
+    background-color: #cfe2f3; /* Color de fondo */
+  }
+  
+  .status-activo {
+    color: #28a745;
+    background-color: #d4edda;
+  }
+  
+  .status-expired {
+    color: #dc3545;
+    background-color: #f8d7da;
+  }
+  

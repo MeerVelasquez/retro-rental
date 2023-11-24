@@ -1,0 +1,30 @@
+[
+    {
+      "image": "https://via.placeholder.com/50",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "products": ["Game A", "Game B", "Game C"],
+      "status": "activo",
+      "price": "$50.00",
+      "exp.date": "2023-12-31"
+    },
+    {
+      "image": "https://via.placeholder.com/50",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "products": ["Game X", "Game Y"],
+      "status": "inactivo",
+      "price": "$40.00",
+      "exp.date": "2023-11-15"
+    },
+    {
+      "image": "https://via.placeholder.com/50",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "products": ["Game Z", "Game Y", "Game A"],
+      "status": "expired",
+      "price": "$60.00",
+      "exp.date": "2023-10-01"
+    }
+  ]
+  

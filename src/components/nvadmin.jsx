@@ -11,7 +11,7 @@ const Navbaradmin = () => {
           alt="Logo"
           className="logo"
         />
-         <a className='about' href="#about">About Us</a>
+         <a className='about' href="#about">Clients</a>
         <a className='games' href="#games">My Games</a>
         <a className='games' href="#games">Stacks</a>
         <button>My rents</button>

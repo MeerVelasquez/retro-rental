@@ -13,6 +13,12 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  
+  @font-face {
+    font-family: 'Montserrat-extralight';
+    src: url('../font/Montserrat-ExtraLight.ttf') format('truetype');
+  }
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -45,8 +51,8 @@
     color: white;
     text-decoration: none;
     margin-right: 15px;
-    font-family: 'Montserrat-Bold';
-    font-weight: lighter;
+    font-family: 'Montserrat-extralight';
+  
 }
   
   
