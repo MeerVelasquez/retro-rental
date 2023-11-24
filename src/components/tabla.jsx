@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { Table, Button } from 'react-bootstrap';
-import './css/CustomerTable.css';
+import './css/tabla.css';
 
 const CustomerTable = ({ customers }) => {
   const [filter, setFilter] = useState('all');
 
-  // Encuentra el nombre de cliente más común
   const mostCommonName = customers.reduce((acc, customer) => {
     acc[customer.name] = (acc[customer.name] || 0) + 1;
     return acc;
@@ -13,7 +12,6 @@ const CustomerTable = ({ customers }) => {
 
   const topCustomerName = Object.keys(mostCommonName).reduce((a, b) => (mostCommonName[a] > mostCommonName[b] ? a : b), '');
 
-  // Filtra los clientes según el nombre más común
   const filteredCustomers = customers.filter((customer) => {
     if (filter === 'all') {
       return true;
@@ -26,12 +24,15 @@ const CustomerTable = ({ customers }) => {
   });
 
   return (
-    <div>
-      <div>
-        <Button variant="outline-primary" onClick={() => setFilter('all')}>All</Button>{' '}
-        <Button variant="outline-success" onClick={() => setFilter('activo')}>Activo</Button>{' '}
-        <Button variant="outline-danger" onClick={() => setFilter('inactivo')}>Inactivo</Button>{' '}
-        <Button variant="outline-info" onClick={() => setFilter('customer')}>Top Customer</Button>
+    <div className='table-container'>
+      <div className='title-cont'>
+        <h2>My Rents</h2>
+      </div>
+      <div className='botones'>
+        <Button variant="btn btn-primary" onClick={() => setFilter('all')}>All</Button>{' '}
+        <Button variant="btn btn-success" onClick={() => setFilter('activo')}>Activo</Button>{' '}
+        <Button variant="btn btn-danger" onClick={() => setFilter('inactivo')}>Inactivo</Button>{' '}
+        <Button variant="btn btn-info" onClick={() => setFilter('customer')}>Top Customer</Button>
       </div>
       <Table striped bordered hover>
         <thead>
@@ -57,8 +58,8 @@ const CustomerTable = ({ customers }) => {
               </td>
               <td>{customer.products}</td>
               <td>
-                <div style={{ color: getTextColor(customer.status), backgroundColor: getStatusColor(customer.status), padding: '5px', borderRadius: '5px' }}>
-                  {customer.status}
+              <div className='wrap' style={{ backgroundColor: getStatusColor(customer.status), padding: '5px', borderRadius: '5px', textAlign: 'center' }}>
+                        <p className='status' style={{ margin: 0, }}>{customer.status}</p>
                 </div>
               </td>
               <td>{customer.price}</td>
@@ -78,7 +79,6 @@ const CustomerTable = ({ customers }) => {
 
 
 
-// Helper functions (copiadas de tu código original)
 const getTextColor = (status) => {
   switch (status) {
     case 'inactivo':
@@ -91,6 +91,7 @@ const getTextColor = (status) => {
       return 'black';
   }
 };
+
 
 const getStatusColor = (status) => {
   switch (status) {

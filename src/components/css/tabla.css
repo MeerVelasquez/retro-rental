@@ -1,0 +1,79 @@
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../font/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.table-container {
+  width: 80%; 
+  margin: auto; 
+}
+
+.title-cont {
+  margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 184px;
+    height: 41px;
+    background: #963A39;
+    border-radius: 16px;
+    border: 1px solid #F8412F;
+    text-align: center;
+}
+
+.title-cont h2 {
+  margin-top: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat-Bold';
+}
+
+.botones {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.table-container {
+    margin: 20px;
+  }
+  
+  .table-header {
+    background-color: #007bff !important; 
+    color: #fff;
+  }
+  
+  .table-row {
+    background-color: #f8f9fa; 
+  }
+  
+  .table-cell {
+    padding: 10px;
+  }
+  
+ 
+  .status-inactivo {
+    color: #007bff;
+    background-color: #cfe2f3; 
+  }
+  
+  .status-activo {
+    color: #28a745;
+    background-color: #d4edda;
+  }
+  
+  .status-expired {
+    color: #dc3545;
+    background-color: #f8d7da;
+  }
+
+ 
+
+  .wrap{
+    width: 100px;
+    height: 40px;
+  }
+ 
+  

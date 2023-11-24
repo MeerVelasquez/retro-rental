@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
-import './css/carouselstyles.css'; // Importa tus estilos personalizados
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import './css/carouselstyles.css'; 
 
 const CarouselComponent = () => {
   return (

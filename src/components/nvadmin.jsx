@@ -1,20 +1,21 @@
 import React from 'react';
 import './css/nvadmin.css'; 
+import { Link } from 'react-router-dom';
 
 
 const Navbaradmin = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <img
+        <Link to='/Homeadmin'><img
           src= "https://i.imgur.com/kY7Mv1n.png" 
           alt="Logo"
           className="logo"
-        />
-         <a className='about' href="#about">Clients</a>
-        <a className='games' href="#games">My Games</a>
-        <a className='games' href="#games">Stacks</a>
-        <button>My rents</button>
+        /> </Link>
+         
+         <Link to= '/games' > <a className='games' href="#games">My Games</a> </Link>
+         <Link to= '/stacks' >  <a className='games' href="#games">Stacks</a> </Link>
+        <Link to= '/clients'> <button>My rents</button></Link>
       </div>
       
       <div className="navbar-right">
@@ -23,11 +24,11 @@ const Navbaradmin = () => {
           alt="profile"
           className="profile"
         />
-        <a className='admin' href="#about">Admin <img
+        <Link to= '/'><a className='admin' href="#about">Admin <img
           src= "https://i.imgur.com/QPqbbe9.png" 
           alt="Logo"
           className="logout"
-        /></a>
+        /></a></Link>
         
         
         

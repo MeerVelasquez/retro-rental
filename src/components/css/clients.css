@@ -1,0 +1,19 @@
+.new-rent {
+    margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 30px;
+      width: 184px;
+      height: 41px;
+      background: #963A39;
+      border-radius: 16px;
+      border: 1px solid #F8412F;
+      text-align: center;
+      
+  }
+
+    .new-rent h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        color: #FFFFFF;
+        font-family: 'Montserrat-Bold';
+    }

@@ -33,19 +33,18 @@
   
   .image-item {
     text-align: center;
-    width: 30%; /* Ajusta el ancho del contenedor de imagen según sea necesario */
-    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+    width: 30%; 
+    margin-bottom: 20px; 
   }
 
   .image-item img {
     width: 50%;
     height: auto;
-    border-radius: 5px; /* Bordes redondeados para la imagen */
+    border-radius: 5px; 
   }
-  
-  /* Estilos para las descripciones debajo de las imágenes */
+
   .image-item p {
-    color: #f5f1f1; /* Cambia el color del texto según sea necesario */
+    color: #f5f1f1; 
     margin-top: 10px;
     font-family: 'Montserrat-SemiBold';
   }
